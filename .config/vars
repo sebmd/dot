@@ -1,0 +1,6 @@
+# Zmienne systemowe
+
+export VIM_EXE=/usr/bin/vim
+export NVIM_EXE=/usr/bin/nvim
+export EDITOR=$NVIM_EXE
+export GPG_ID=2

@@ -1,0 +1,29 @@
+# aliasy BASH
+
+if [ -z $EDITOR ]; then
+    command -v nvim> /dev/null
+    if [ $? != 0 ]; then
+        export EDITOR=/usr/bin/vi
+    else
+        export EDITOR=/usr/bin/nvim
+    fi
+fi
+
+alias .a="$EDITOR $HOME/.config/aliases && . $HOME/.config/aliases"
+
+alias n=$EDITOR
+alias v=n
+alias vi=n
+alias vim=n
+
+alias .b="$EDITOR $HOME/.bashrc"
+
+alias t=tmux
+alias cls=clear
+alias q=exit
+
+## GIT
+alias gp="$HOME/bin/gp.sh"
+alias gs="$HOME/bin/gs.sh"
+alias pu="$HOME/bin/pu.sh"
+alias gi="$HOME/bin/gi.sh"
