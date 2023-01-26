@@ -1,4 +1,4 @@
-# Aliasy BASH
+# INFO: Aliasy BASH
 
 if [ -z $EDITOR ]; then
     command -v nvim> /dev/null
