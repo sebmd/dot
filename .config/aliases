@@ -1,4 +1,4 @@
-# aliasy BASH
+# Aliasy BASH
 
 if [ -z $EDITOR ]; then
     command -v nvim> /dev/null
@@ -25,6 +25,7 @@ alias cls=clear
 alias q=exit
 
 ## GIT
+alias g=git
 alias gp="$HOME/bin/gp.sh"
 alias gs="$HOME/bin/gs.sh"
 alias pu="$HOME/bin/pu.sh"
@@ -34,3 +35,10 @@ alias gi="$HOME/bin/gi.sh"
 alias di="sudo dnf install"
 alias dr="sudo dnf remove"
 alias ds="$HOME/bin/ds.sh"
+
+alias update="$HOME/bin/update.sh"
+
+alias ...="cd ../.."
+alias ..="cd .."
+alias lsx="ls -F | grep '*$'"
+alias mkdir="mkdir -p"
