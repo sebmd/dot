@@ -10,13 +10,15 @@ if [ -z $EDITOR ]; then
 fi
 
 alias .a="$EDITOR $HOME/.config/aliases && . $HOME/.config/aliases"
+alias .b="$EDITOR $HOME/.bashrc"
+alias .vars="$EDITOR $HOME/.config/vars && . $HOME/.config/vars"
+alias .v="$HOME/bin/nvimrc.sh"
 
 alias n=$EDITOR
 alias v=n
 alias vi=n
 alias vim=n
 
-alias .b="$EDITOR $HOME/.bashrc"
 
 alias t=tmux
 alias cls=clear
