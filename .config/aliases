@@ -29,3 +29,8 @@ alias gp="$HOME/bin/gp.sh"
 alias gs="$HOME/bin/gs.sh"
 alias pu="$HOME/bin/pu.sh"
 alias gi="$HOME/bin/gi.sh"
+
+## Fedora
+alias di="sudo dnf install"
+alias dr="sudo dnf remove"
+alias ds="$HOME/bin/ds.sh"
