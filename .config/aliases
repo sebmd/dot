@@ -56,3 +56,8 @@ alias sysdis="sudo systemctl disable"
 alias sysena="sudo systemctl enable"
 alias sysstart="sudo systemctl start"
 alias sysstop="sudo systemctl stop"
+
+alias cdb="source $HOME/bin/cdb.sh"
+alias cdba="source $HOME/bin/cdba.sh"
+alias cdbd="source $HOME/bin/cdbd.sh"
+alias cdbe="$EDITOR $HOME/.config/bmdirs"
