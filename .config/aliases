@@ -42,6 +42,10 @@ alias ...="cd ../.."
 alias ..="cd .."
 alias lsx="ls -F | grep '*$'"
 alias mkdir="mkdir -p"
+alias ll="ls -Alh"
+
+alias xc='xclip -selection clipboard'
+alias xp='xclip -selection clipboard -o'
 
 alias docker="sudo docker"
 
